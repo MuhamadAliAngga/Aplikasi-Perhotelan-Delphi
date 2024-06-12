@@ -1,0 +1,73 @@
+object DataModule1: TDataModule1
+  Height = 530
+  Width = 640
+  object UniConnection1: TUniConnection
+    ProviderName = 'MySQL'
+    Database = 'hotel'
+    Username = 'root'
+    Server = 'localhost'
+    Connected = True
+    LoginPrompt = False
+    Left = 224
+    Top = 72
+  end
+  object MySQLUniProvider1: TMySQLUniProvider
+    Left = 328
+    Top = 72
+  end
+  object Unimenginap: TUniTable
+    TableName = 'menginap'
+    Connection = UniConnection1
+    Active = True
+    Left = 96
+    Top = 176
+    object Unimenginapid: TIntegerField
+      AutoGenerateValue = arAutoInc
+      FieldName = 'id'
+    end
+    object Unimenginapnama_pelanggan: TStringField
+      FieldName = 'nama_pelanggan'
+      Required = True
+      Size = 255
+    end
+    object Unimenginapno_ktp: TStringField
+      FieldName = 'no_ktp'
+      Required = True
+      Size = 16
+    end
+    object Unimenginapno_kamar: TIntegerField
+      FieldName = 'no_kamar'
+      Required = True
+    end
+    object Unimenginaplama_menginap: TIntegerField
+      FieldName = 'lama_menginap'
+      Required = True
+    end
+    object Unimenginapcek_in: TDateField
+      FieldName = 'cek_in'
+      Required = True
+    end
+    object Unimenginapcek_out: TDateField
+      FieldName = 'cek_out'
+      Required = True
+    end
+    object Unimenginapket: TMemoField
+      FieldName = 'ket'
+      Required = True
+      BlobType = ftMemo
+    end
+  end
+  object UDSmenginap: TUniDataSource
+    DataSet = Unimenginap
+    Left = 192
+    Top = 176
+  end
+  object Qmenginap: TUniQuery
+    Connection = UniConnection1
+    SQL.Strings = (
+      'select*from menginap')
+    Active = True
+    Left = 280
+    Top = 184
+  end
+end

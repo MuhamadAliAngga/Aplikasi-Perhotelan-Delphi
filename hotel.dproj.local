@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/06/10 07:04:27.000.594,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\USER\Documents\Embarcadero\Studio\Projects\MenuUtama.dfm</Transaction>
+    <Transaction>2024/06/10 07:04:27.000.594,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\USER\Documents\Embarcadero\Studio\Projects\MenuUtama.pas</Transaction>
+    <Transaction>2024/06/10 07:09:03.000.091,=E:\delphi\Unit3.pas</Transaction>
+    <Transaction>2024/06/10 07:09:35.000.315,=E:\delphi\Unit4.pas</Transaction>
+    <Transaction>2024/06/10 07:09:59.000.171,E:\delphi\Unit3.dfm=E:\delphi\kamar.dfm</Transaction>
+    <Transaction>2024/06/10 07:09:59.000.171,E:\delphi\Unit3.pas=E:\delphi\kamar.pas</Transaction>
+    <Transaction>2024/06/10 07:10:14.000.670,E:\delphi\Unit4.dfm=E:\delphi\checkout.dfm</Transaction>
+    <Transaction>2024/06/10 07:10:14.000.670,E:\delphi\Unit4.pas=E:\delphi\checkout.pas</Transaction>
+    <Transaction>2024/06/10 07:11:13.000.620,=E:\delphi\Unit5.pas</Transaction>
+    <Transaction>2024/06/10 07:11:23.000.982,E:\delphi\Unit5.dfm=E:\delphi\login.dfm</Transaction>
+    <Transaction>2024/06/10 07:11:23.000.982,E:\delphi\Unit5.pas=E:\delphi\login.pas</Transaction>
+    <Transaction>2024/06/10 07:25:17.000.877,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/10 07:44:23.000.167,C:\Users\USER\Documents\Embarcadero\Studio\Projects\MenuUtama.dfm=E:\delphi\MenuUtama.dfm</Transaction>
+    <Transaction>2024/06/10 07:44:23.000.167,C:\Users\USER\Documents\Embarcadero\Studio\Projects\MenuUtama.pas=E:\delphi\MenuUtama.pas</Transaction>
+    <Transaction>2024/06/10 07:44:35.000.866,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Project1.dproj=E:\delphi\hotel.dproj</Transaction>
+    <Transaction>2024/06/10 07:45:18.000.618,=E:\delphi\Unit1.pas</Transaction>
+    <Transaction>2024/06/10 07:49:54.000.217,=E:\delphi\Unit2.pas</Transaction>
+    <Transaction>2024/06/10 07:50:33.000.026,E:\delphi\Unit1.pas=E:\delphi\DataModule.pas</Transaction>
+    <Transaction>2024/06/10 07:50:33.000.026,E:\delphi\Unit1.dfm=E:\delphi\DataModule.dfm</Transaction>
+    <Transaction>2024/06/10 08:01:16.000.243,E:\delphi\Unit2.dfm=E:\delphi\Checkin.dfm</Transaction>
+    <Transaction>2024/06/10 08:01:16.000.243,E:\delphi\Unit2.pas=E:\delphi\Checkin.pas</Transaction>
+  </Transactions>
+</BorlandProject>
